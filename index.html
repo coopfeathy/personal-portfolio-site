@@ -2,13 +2,20 @@
 <html>
     <head>
         <title>Coopers Site!</title>
-        <meta charset="UTF-8">
-        <meta name="description" content="This is my website!">
-        <meta name="keywords" content="Cooper, Featherstone, personal, site ">
-        <meta name="author" content="Cooper Featherstone">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
     </head>
     <body>
-        <h1>WELCOME!</h1>
+        <div id="mySidenav" class="sidenav">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="container" onclick="toggleNav(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+            <script src="../js/sideNav.js"></script>
     </body>
 </html>

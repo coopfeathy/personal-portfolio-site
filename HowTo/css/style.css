@@ -1,0 +1,66 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: black;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: gray;
+}
+
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  transition: .5s;
+}
+.container:hover .bar1, .container:hover .bar2, .container:hover .bar3{
+  background-color: white;
+}
+.container .bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: .5s;
+}
+.change.container {    
+  transform:  translate(15vw);
+  -webkit-transform: translate(15vw);
+  -moz-transform:  translate(15vw);
+  -o-transform:  translate(15vw);
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-9px, 7px);
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  -moz-transform: rotate(-45deg) translate(-9px, 7px);
+  -o-transform: rotate(-45deg) translate(-9px, 7px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  -moz-transform: rotate(45deg) translate(-8px, -8px);
+  -o-transform: rotate(45deg) translate(-8px, -8px);
+}

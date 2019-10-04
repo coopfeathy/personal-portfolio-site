@@ -1,25 +1,26 @@
 /* Mobile */
-@media (max-width: 400px){
+@media only screen and (max-width: 400px){
  body{
    background-color: greenyellow;
  }
 }
 
 /* Tablet */
-@media (min-width: 401px) and (max-width: 960px){
+@media only screen and (min-width: 401px) and (max-width: 960px){
   body{
     background-color: blueviolet;
   }
 }
 
 /* Desktop */
-@media (min-width: 961px){
+@media only screen and (min-width: 961px){
   body{
-    background-color: black;
+    background-color: palevioletred;
   }
 }
 
 button:focus { outline: none; }
+
 
 .sidenav {
   height: 100%;
@@ -63,10 +64,10 @@ button:focus { outline: none; }
   transition: .5s;
 }
 .change.container {    
-  transform:  translate(15vw);
-  -webkit-transform: translate(15vw);
-  -moz-transform:  translate(15vw);
-  -o-transform:  translate(15vw);
+  transform:  translate(160px);
+  -webkit-transform: translate(160px);
+  -moz-transform:  translate(160px);
+  -o-transform:  translate(160px);
 }
 
 .change .bar1 {

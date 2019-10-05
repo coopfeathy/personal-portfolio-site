@@ -9,30 +9,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="../css/main.css">
         <link rel="stylesheet" type="text/css" href="../css/nav.css">
-
     </head>
     <body>
         <div id="sidenav">
             <a href="../index.html">Home</a>
             <a href="otherSites.html">Websites</a>
-            <a href="#">Resume</a>
+            <a class="active" href="#">Resume</a>
         </div>
-        <button class="container" onclick="toggleNav(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </button>
-       
         <div id="main">
-            <div>
-
+            <div id="topnav">
+                <a class="container" onclick="toggleNav(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </a>
+                <div class="title" >Other Sites</div> 
             </div>
-            <center>
-                <iframe class="resume" src="../other/Cooper_Featherstone_Resume.pdf"></iframe>
-            </center>
-
+            <div id="content">
+                <br><br>
+                <center>
+                    <iframe class="resume" src="../other/Cooper_Featherstone_Resume.pdf"></iframe>
+                </center>
+            </div>
         </div>
-
         <script src="../js/sideNav.js"></script>
     </body>
 </html>

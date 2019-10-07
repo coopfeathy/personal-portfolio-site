@@ -34,7 +34,7 @@
     font-size: 17px;
 }
 .topnav a.active {
-    background-color: #4CAF50;
+    background-color: rgb(81, 138, 192);
     color: white;
 } 
 .topnav .icon {

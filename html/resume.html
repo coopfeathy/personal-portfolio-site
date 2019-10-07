@@ -9,29 +9,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="../css/main.css">
         <link rel="stylesheet" type="text/css" href="../css/nav.css">
+        <link rel="stylesheet" type="text/css" href="../css/resume.css">
     </head>
     <body>
-        <div id="sidenav">
+        <div id="myTopnav" class="topnav">
+            <a class="noDesktop"><b>Cooper Featherstone</b></a>
             <a href="../index.html">Home</a>
-            <a href="otherSites.html">Websites</a>
-            <a class="active" href="#">Resume</a>
+            <a href="contact.html">Contact</a>
+            <a href="?" class="active">Resume</a>
+            <a href="otherSites.html">Other Sites</a>
+            <a class="icon" onclick="menu(this); toggleNav();">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </a>
         </div>
-        <div id="main">
-            <div id="topnav">
-                <a class="container" onclick="toggleNav(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </a>
-                <div class="title">Resume</div> 
-            </div>
-            <div id="content">
-                <br><br>
-                <center>
-                    <iframe class="resume" src="../other/Cooper_Featherstone_Resume.pdf"></iframe>
-                </center>
-            </div>
+        <div id="content">
+            <center class="noMobile"><hr><h2>My Resume</h2><hr></center>
+            <!-- <center>
+                <iframe class="resume" src="../other/Cooper_Featherstone_Resume.pdf"></iframe>
+            </center> -->
         </div>
-        <script src="../js/sideNav.js"></script>
+        <script src="../js/nav.js"></script>
     </body>
 </html>

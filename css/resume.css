@@ -1,0 +1,15 @@
+@media only screen and (max-width: 900px){
+    .resume{
+      width:100vw;
+      height:100vh;
+   }
+  }
+  
+  /* Desktop */
+  @media only screen and (min-width: 901px){
+    
+    .resume{
+      width:1000px;
+      height:1150px;
+   }
+  }

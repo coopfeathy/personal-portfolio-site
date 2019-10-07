@@ -1,25 +1,32 @@
-/* Mobile */
-@media only screen and (max-width: 900px){
- body{
-    background-color: palevioletred;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
 
- }
- .resume{
-    width:100vw;
-    height:100vh;
- }
+body{
+  background-color: black;
+  margin: 0;
+  font-family: "Montserrat";
+
+}
+
+h1, h2, h3{
+  color: white;
+  cursor: default;
+}
+
+hr{
+  margin: 0;
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 600px){
+  .noMobile{
+    display: none !important;
+  }
 }
 
 /* Desktop */
-@media only screen and (min-width: 901px){
-  body{
-    background-color: palevioletred;
-  }
-  .resume{
-    width:1000px;
-    height:1150px;
- }
+@media only screen and (min-width: 601px){
+  .noDesktop{
+    display: none !important;
 }
-#content{
-  margin-top: 75px;
 }

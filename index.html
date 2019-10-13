@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Coopers Site!</title>
+        <title>Coopers Featherstone</title>
         <meta charset="UTF-8">
         <meta name="description" content="Cooper Featherstones website">
         <meta name="keywords" content="Cooper, Featherstone, personal, website ">
@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/nav.css">
         <link rel="stylesheet" type="text/css" href="css/abMe.css">
-        <link rel="apple-touch-icon" href="other/icon-0.png">
+        <link rel="apple-touch-icon" href="other/icon.png">
     </head>
     <body>
         <div id="myTopnav" class="topnav">
@@ -26,7 +26,7 @@
             </a>
         </div>
         <div id="content">
-            <center class="noMobile"><hr><h2>Cooper Featherstone</h2><hr></center>
+            <center class="noMobile"><hr><a target="_blank" href="other/Cooper_Featherstone_Resume.pdf"><h2>Cooper Featherstone</h2></a><hr></center>
             <div class="row">
                 
                 <div class="main">
@@ -63,5 +63,33 @@
             </div>
         </div>
         <script src="js/nav.js"></script>
+        
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyC8ZoJewENzeDrFfNpO9fZOTGH7HyLnB1w",
+    authDomain: "cooper-featherstone.firebaseapp.com",
+    databaseURL: "https://cooper-featherstone.firebaseio.com",
+    projectId: "cooper-featherstone",
+    storageBucket: "cooper-featherstone.appspot.com",
+    messagingSenderId: "34336591862",
+    appId: "1:34336591862:web:e204441fc18d5bcbf4c1d7",
+    measurementId: "G-H3014L3X8N"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+
     </body>
 </html>

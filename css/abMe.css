@@ -24,22 +24,22 @@ img {
     padding: 3px;
 }
 
-/* h1, h2, h4{
+.side h1, .side h2, .side h4{
   padding: 5px;
   margin: 0;
 }
-h3{
+.side h3{
   margin: 0;
   padding: 15px 5px 5px 5px;
 }
-p, h5, h6, li{
+.side p, .side h5, .side h6, .side li{
   padding-left: 5px;
   margin: 0;
   font-weight: normal;
 }
-ul{
+.side ul{
   margin: 7px; 
-} */
+} 
 
 /* Footer */
 .footer {

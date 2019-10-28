@@ -8,7 +8,7 @@ $subject = 'Message from a site visitor '.$name;
 
 $body_message = 'From: '.$name."\n";
 $body_message .= 'E-mail: '.$email."\n";
-$body_message .= 'Message: '.$_message;
+$body_message .= 'Message: '.$message;
 
 $headers = 'From: '.$email."\r\n";
 $headers .= 'Reply-To: '.$email."\r\n";
